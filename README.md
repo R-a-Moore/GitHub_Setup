@@ -82,6 +82,29 @@ git config --global user.email myemail@example.com
 ```
 
 ## SSH
-### Secure Shell
+
+Secure Shell [(SSH)](https://en.wikipedia.org/wiki/Secure_Shell), is a public-key cryptographic protocol for securing communications on a network. In this case, it allows us to securely send our work to and from github.
+
 ### Creating an SSH Key
+The first thing you need to do in order to use git with SSH, is make the repo use it. You can either:
+1. do it during creation
+
+![making repo SSH]()
+
+2. get a SSH link
+
+![repo link]()
+
+Next, you will need to creat an .SSH file in your local host (if you do not have one already)
+
+generate keys
+
 ### Using SSH
+
+cat key, copy it
+
+go into github > settings > SSH and GPG keys > new SSH key > name same as generate key, paste copied key in field
+
+go to repo in github, get the SSH link > go into bash paste link > authenticate
+
+should be able to pull/push, etc as normal
