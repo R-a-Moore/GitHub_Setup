@@ -18,17 +18,18 @@ Start by following these steps:
 
 With that done, you should be ready to start up Git Bash in your windows browser, run it as an administrator so that it has full permisions to operate on your machine...
 
-![git bash in browser](file:///C:/Users/Raphael/Documents/OFFICIAL/Career/Sparta%20Global/Training/Week%201/GitHub/setupIMG1.png)
+![git bash in browser](https://user-images.githubusercontent.com/47668244/181805670-e543161e-7deb-495c-8220-c4ae665f7df2.png)
 
 It should look like this when you start it up
 
-![git bash started](file:///C:/Users/Raphael/Documents/OFFICIAL/Career/Sparta%20Global/Training/Week%201/GitHub/setupIMG2.png)
+![git bash started](https://user-images.githubusercontent.com/47668244/181805721-8c80c55e-9e8b-4d34-ad58-fb905bbe5af4.png)
 
 ## Using HTTPs
 Now that you have git and a github account set up, you are ready to start work.
 
 On github, in the ripositories tab press 'new'. this creates a new repository for you to send all of your work. it should look like this: 
-![create new repo](file:///C:/Users/Raphael/Documents/OFFICIAL/Career/Sparta%20Global/Training/Week%201/GitHub/setupIMG3.png)
+ 
+![create new repo](https://user-images.githubusercontent.com/47668244/181805754-27727057-7221-4117-a082-06d026502b0e.png)
 
 - Name the repository as you like
 - give it whatever description you like
