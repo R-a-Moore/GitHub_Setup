@@ -42,9 +42,45 @@ Now that the repo has been made, we will want to access versions for out local m
 
 First, Open up git bash. and follow these commands:
 
-`mkdir new_repo` this creates a file for us to work in. Name it what you like, i've called it 'new_repo'.
+`mkdir "new_repo"` this creates a file for us to work in. Name it what you like, i've called it "new_repo".
+
 `cd new_repo` this navigates the git bash into the new_repo file.
+
 `ls -a` this provides a list of all the files in this file.
+
+`git init` this will initialise git int this file you have made
+
+`nano README.md` this will create a new file called 'README.md' which will immediately allow you to write into it.
+Write whatever you like in here, instructions or descritpions may be a useful idea.
+Once you are done press `CTRL + X` then when the prompt appears press `y` and finally `ENTER` which should take you back onto the git bash proper.
+
+![git bash nano command]()
+
+`git add .` this adds all of the work you've done to a commit.
+
+`git add -u README.md` this adds the specific file you've added/altered to a commit.
+
+`git commit -m ""` this commits the work you've done, now ready to be pushed up into your repo on github.
+
+`git remote add origin https://github.com/"your username"/"your repo".git` this adds the work you've done, into your online repo.
+
+`git branch -M main` this moves you onto the main branch of your repo work
+
+`git push -u origin main` this pushes all of the work you've done onto the main branch of your repo. It should now be on there when you view it in your github.
+
+![github pushed]()
+
+This is what all of the code should look like together
+
+![git bash code all]()
+### Authentication
+It may be the case that git bash is not allowing you to run the code due to you not being authenticated. Try loging in using your github account.
+
+```commandline
+git config --global user.name "myname"
+git config --global user.email myemail@example.com
+```
+
 ## SSH
 ### Secure Shell
 ### Creating an SSH Key
