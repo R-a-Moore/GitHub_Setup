@@ -27,8 +27,7 @@ It should look like this when you start it up
 ## Using HTTPs
 Now that you have git and a github account set up, you are ready to start work.
 
-On github, in the ripositories![setupIMG1](https://user-images.githubusercontent.com/47668244/181805538-2052c965-12f4-4323-bec2-7cc393e263d0.png)
- tab press 'new'. this creates a new repository for you to send all of your work. it should look like this: 
+On github, in the ripositories tab press 'new'. this creates a new repository for you to send all of your work. it should look like this: 
  
 ![create new repo](https://user-images.githubusercontent.com/47668244/181805754-27727057-7221-4117-a082-06d026502b0e.png)
 
