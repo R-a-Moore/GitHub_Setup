@@ -100,7 +100,7 @@ Now we can make the keys wit this command: `ssh-keygen -t rsa -b 4096 -C "your_e
 - You will then be prompted to name the key
 - you will then be prompted to provide a passphrase for the key (just press `ENTER` to leave it blank)
 
-With that your key should be generated. Use the `ls -a` command to see it within your directory.
+With that your key should be generated (both your public - .pub - and private key files, which you can find in your .ssh folder). Use the `ls -a` command to see it within your directory.
 
 ### Using SSH
 
