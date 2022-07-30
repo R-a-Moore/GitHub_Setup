@@ -52,7 +52,7 @@ First, Open up git bash. and follow these commands:
 `git init` this will initialise git int this file you have made
 
 `nano README.md` this will create a new file called 'README.md' which will immediately allow you to write into it.
-Write whatever you like in here, instructions or descritpions may be a useful idea.
+Write whatever you like in here, instructions or descritpions may be a useful idea. If you don't know the useful tools for writing in .md files follow [this link!](https://github.com/R-a-Moore/Writing_In_md)
 Once you are done press `CTRL + X` then when the prompt appears press `y` and finally `ENTER` which should take you back onto the git bash proper.
 
 ![git bash nano command]()
@@ -91,7 +91,7 @@ Secure Shell [(SSH)](https://en.wikipedia.org/wiki/Secure_Shell), is a public-ke
 ### Creating an SSH Key
 The first thing you need to do in order to use git with SSH, is make the repo use it. You can do this in the creation;
 
-![making repo SSH]()
+![making repo SSH](https://user-images.githubusercontent.com/47668244/181997207-ad44fff9-956a-420e-99aa-83a62ec1548d.png)
 
 Next, you will need to creat an .SSH file in your local host (if you do not have one already), with `mkdir .ssh` and then navigating into that new file using `cd .ssh`.
 
@@ -110,7 +110,7 @@ Next, go to github and go into settings > SSH and GPG keys. Then create a new SS
 
 Then go into your repo in github. Get the SSH link copy. 
 
-![repo SSH link copy]()
+![repo SSH link copy](https://user-images.githubusercontent.com/47668244/181997196-1b4db931-c527-4d1b-a8a8-1da585b24c5e.png)
 
 ### ssh-agent & keys
 You may need to 
