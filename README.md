@@ -38,7 +38,7 @@ On github, in the ripositories tab press 'new'. this creates a new repository fo
 
 Now click 'Create repository'
 
-### Creating a README.md
+### Creating a README.md & Pushing to your repo
 Now that the repo has been made, we will want to access versions for out local machines, and put work in there.
 
 First, Open up git bash. and follow these commands:
@@ -112,6 +112,11 @@ Then go into your repo in github. Get the SSH link copy.
 
 ![repo SSH link copy]()
 
-go to repo in github, get the SSH link > go into bash paste link > authenticate
+### ssh-agent & keys
+You may need to 
 
-With all of this done, you should be able to pull/push, your work as normal. Enjoy!
+`eval "$(ssh-agent -s)"` this gets your agent pid which should looks something like `Agent pid "your number"`.
+
+Add your ssh private key to the ssh-agent; `ssh-add ~/.ssh/"your private key name"`
+
+With all of this done, you should be able to pull/push, your work as normal with the previous steps in the 'creating a README.md' section above. Enjoy!
