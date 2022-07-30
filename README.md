@@ -74,6 +74,8 @@ Once you are done press `CTRL + X` then when the prompt appears press `y` and fi
 This is what all of the code should look like together
 
 ![git bash code all]()
+
+Note that you must delete the .git file using `rm -rf .git` in order to leave the branch you are in, and the connection to git all together. You can re-initialize with `git init` in the file you were using, again, when you come back to it.
 ### Authentication
 It may be the case that git bash is not allowing you to run the code due to you not being authenticated. Try loging in using your github account.
 
@@ -87,25 +89,29 @@ git config --global user.email myemail@example.com
 Secure Shell [(SSH)](https://en.wikipedia.org/wiki/Secure_Shell), is a public-key cryptographic protocol for securing communications on a network. In this case, it allows us to securely send our work to and from github.
 
 ### Creating an SSH Key
-The first thing you need to do in order to use git with SSH, is make the repo use it. You can either:
-1. do it during creation
+The first thing you need to do in order to use git with SSH, is make the repo use it. You can do this in the creation;
 
 ![making repo SSH]()
 
-2. get a SSH link
+Next, you will need to creat an .SSH file in your local host (if you do not have one already), with `mkdir .ssh` and then navigating into that new file using `cd .ssh`.
 
-![repo link]()
+Now we can make the keys wit this command: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
-Next, you will need to creat an .SSH file in your local host (if you do not have one already)
+- You will then be prompted to name the key
+- you will then be prompted to provide a passphrase for the key (just press `ENTER` to leave it blank)
 
-generate keys
+With that your key should be generated. Use the `ls -a` command to see it within your directory.
 
 ### Using SSH
 
-cat key, copy it
+`cat "your key"` this command will read out the cotent of a file. In this case you should be able to see what your key looks like. Select the key's content (in it's entirety), and copy it. You will need it for later.
 
-go into github > settings > SSH and GPG keys > new SSH key > name same as generate key, paste copied key in field
+Next, go to github and go into settings > SSH and GPG keys. Then create a new SSH key, naming/titling it and pasting the copy of the key into the key field. Then finishing by pressing 'Add SSH key'.
+
+Then go into your repo in github. Get the SSH link copy. 
+
+![repo SSH link copy]()
 
 go to repo in github, get the SSH link > go into bash paste link > authenticate
 
-should be able to pull/push, etc as normal
+With all of this done, you should be able to pull/push, your work as normal. Enjoy!
