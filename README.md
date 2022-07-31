@@ -55,7 +55,7 @@ First, Open up git bash. and follow these commands:
 Write whatever you like in here, instructions or descritpions may be a useful idea. If you don't know the useful tools for writing in .md files follow [this link!](https://github.com/R-a-Moore/Writing_In_md)
 Once you are done press `CTRL + X` then when the prompt appears press `y` and finally `ENTER` which should take you back onto the git bash proper.
 
-![git bash nano command]()
+![git bash nano command](https://user-images.githubusercontent.com/47668244/182022514-2e112575-6ab8-4f80-b6f0-901296e1126d.png)
 
 `git add .` this adds all of the work you've done to a commit.
 
@@ -69,11 +69,11 @@ Once you are done press `CTRL + X` then when the prompt appears press `y` and fi
 
 `git push -u origin main` this pushes all of the work you've done onto the main branch of your repo. It should now be on there when you view it in your github.
 
-![github pushed]()
+![github pushed](https://user-images.githubusercontent.com/47668244/182022630-33e44635-2d30-42b9-9b14-c667a7d24d1a.png)
 
 This is what all of the code should look like together
 
-![git bash code all]()
+![git bash code all](https://user-images.githubusercontent.com/47668244/182022500-17aef7e5-536a-47bb-8495-0e3ccde4f219.png)
 
 Note that you must delete the .git file using `rm -rf .git` in order to leave the branch you are in, and the connection to git all together. You can re-initialize with `git init` in the file you were using, again, when you come back to it.
 ### Authentication
