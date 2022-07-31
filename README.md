@@ -75,7 +75,7 @@ This is what all of the code should look like together
 
 ![git bash code all](https://user-images.githubusercontent.com/47668244/182022500-17aef7e5-536a-47bb-8495-0e3ccde4f219.png)
 
-If you want to pull down work from a repo the code for this (after you have `git init`) is this; `git pull https://github.com/R-a-Moore/GitHub_Setup.git`.
+If you want to pull down work from a repo the code for this (after you have `git init`) is this; `git pull "your repo link"`.
 
 Note that you must delete the .git file using `rm -rf .git` in order to leave the branch you are in, and the connection to git all together. You can re-initialize with `git init` in the file you were using, again, when you come back to it.
 
