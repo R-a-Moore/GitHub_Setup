@@ -77,7 +77,7 @@ This is what all of the code should look like together
 
 If you want to pull down work from a repo the code for this (after you have `git init`) is this; `git pull "your repo link"`.
 
-Note that you must delete the .git file using `rm -rf .git` in order to leave the branch you are in, and the connection to git all together. You can re-initialize with `git init` in the file you were using, again, when you come back to it.
+Note that you must delete the .git file using `rm -rf .git` in order to leave the branch you are in, and the connection to git all together. You can re-initialize with `git init` in the file you were using, again, when you come back to it. `git clone "repo link"` is for creating a copy of your github repository into a file which has not been initialised or already pulled down into.
 
 ### Authentication
 It may be the case that git bash is not allowing you to run the code due to you not being authenticated. Try loging in using your github account.
