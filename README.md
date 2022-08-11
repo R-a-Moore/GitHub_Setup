@@ -124,4 +124,7 @@ You may need to
 
 Add your ssh private key to the ssh-agent; `ssh-add ~/.ssh/"your private key name"`
 
+  `git config --global user.email "you@example.com"`
+  `git config --global user.name "Your Name"`
+
 With all of this done, you should be able to pull/push, your work as normal with the previous steps in the 'creating a README.md' section above. Enjoy!
